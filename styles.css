@@ -79,3 +79,38 @@ body {
   color: #0a1a20;
   font-weight: bold;
 }
+
+.extra-bottom {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.extra-bottom button {
+  background-color: #4b8556;
+  color: white;
+  border: none;
+  outlien: none;
+  padding: 2vh 6vh;
+  border-radius: 0.5em;
+  box-shadow: 2px 2px #2b6536;
+  margin-bottom: 1em;
+}
+
+.extra-bottom button:active {
+  box-shadow: none;
+  transform: translateY(2px);
+  transform: tranlsateX(2px);
+}
+
+.extra-bottom button:hover {
+  cursor: pointer;
+}
+
+.log-in {
+  color: #4b8556;
+}
+
+.log-in:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
