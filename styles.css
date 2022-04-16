@@ -7,7 +7,7 @@
 }
 
 :root {
-  --main-font: serif;
+  --main-font: "Roboto", sans-serif;
   --right-bg-clr: #f9f9f9ff;
 }
 
@@ -70,6 +70,30 @@ body {
   min-width: 50%;
   max-width: 80%;
   display: block;
+  border: none;
+  outline: 1px solid gray;
+  border-radius: 0.2em;
+  padding: 2px 4px;
+}
+
+.form input[type="text"]:focus {
+  outline: 2px solid #307dca;
+}
+
+.form input[type="text"]:invalid {
+  outline: 1px solid #f77474;
+}
+
+.form input[type="text"]:focus:invalid {
+  outline: 2px solid red;
+}
+
+.form input[type="text"]:valid {
+  outline: 1px solid #469254;
+}
+
+.form input[type="text"]:focus:valid {
+  outline: 2px solid #3b8148;
 }
 
 .form label {
