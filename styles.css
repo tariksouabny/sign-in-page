@@ -60,3 +60,21 @@ body {
   padding-top: 15px;
   padding-bottom: 2em;
 }
+
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.form input[type="text"] {
+  max-width: 20ch;
+  display: block;
+}
+
+.form label {
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #0a1a20;
+  font-weight: bold;
+}
