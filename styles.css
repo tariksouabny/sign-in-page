@@ -28,3 +28,21 @@ body {
   height: 100vh;
   background-image: url("https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80");
 }
+
+.sign-up-right {
+  display: grid;
+  gap: 10px;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.sign-up-right > * {
+  padding-left: 10vw;
+}
+
+.form-title {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 10vh;
+}
