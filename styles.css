@@ -67,7 +67,8 @@ body {
 }
 
 .form input[type="text"] {
-  max-width: 20ch;
+  min-width: 50%;
+  max-width: 80%;
   display: block;
 }
 
