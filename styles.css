@@ -17,3 +17,14 @@
 .emph {
   font-style: italic;
 }
+
+body {
+  display: flex;
+}
+
+.image-left {
+  min-width: 30vw;
+  max-width: 30vw;
+  height: 100vh;
+  background: blue;
+}
